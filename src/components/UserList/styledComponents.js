@@ -99,7 +99,7 @@ export const List = style.li`
     margin-right:10px;
     border:5px solid #000;
     margin-bottom:10px;
-    animation:${borderSlide} 1s infinite;
+    animation:${borderSlide} 3s infinite;
     padding:10px;
     cursor:pointer;
     transition:1s;
