@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+### Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### frontend deployed link 
+ ---> https://master--sharondemousers.netlify.app/
 
-## Available Scripts
+### backend Github link
+ ---> https://github.com/sharonrajkondapaturi/usersbackend
 
-In the project directory, you can run:
+### backend deplployed link
+ ---> https://usersbackend-op6a.onrender.com
 
-### `npm start`
+### used components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ --> Home 
+ --> NewUser 
+ --> UserList
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+used as function components for the hook's purpose
 
-### `npm test`
+### installed packages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+--> styled-components
+--> axios
+--> react-icons
+--> react-router-dom
+--> react-loader-spinner
 
-### `npm run build`
+styling is done using styled components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home Component 
+Home component is used to fetch and render the userData with the help of axios to display the list we have UserList component.To create a newuser the user has to click the New Profile button in order to create a profile then it will navigate newUser Page.we can sort the data according to the location of the user.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### UserList Component
+UserList component is used to display the details of the user which consists of a delete button in order to delete the user detail.To make more attractive we have used transition and animation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### NewUser Componet
+NewUser Component is used to create a new profile which contains a form, the user can post his details and click submit then it will navigate to home page and the new user data will be displayed.
