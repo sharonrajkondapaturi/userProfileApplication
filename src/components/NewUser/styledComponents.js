@@ -1,34 +1,18 @@
-import style,{keyframes} from 'styled-components'
+import style from 'styled-components'
 
-const changeGradient = keyframes`
-0%{
-    background-image:linear-gradient(to left,#f043c7,#f5c4e9);
-}
-25%{
-    background-image:linear-gradient(to left,#58db6b,#cfe3c5);
-}
-50%{
-    background-image:linear-gradient(to left,#edeb5a,#d4d3a1);
-}
-75%{
-    background-image:linear-gradient(to left,#f043c7,#f5c4e9);
-}
-100%{
-    background-image:linear-gradient(to left,#e63225,#e68625);
-}
-`
+
 export const Container = style.div`
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-background-image:linear-gradient(to left,#f043c7,#f5c4e9);
-animation:${changeGradient} 6s infinite;
+background-image:url("https://images.pexels.com/photos/1227515/pexels-photo-1227515.jpeg?cs=srgb&dl=pexels-shonejai-445753-1227515.jpg&fm=jpg");
+background-size:cover;
 min-height:100vh;
 `
 export const NewForm = style.form`
 @media screen and (min-width:1024px){
-    height:400px;
+    height:415px;
     width:600px;
     display:flex;
     flex-direction:column;
